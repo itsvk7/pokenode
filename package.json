@@ -13,6 +13,10 @@
   "license": "MIT",
   "author": "victor",
   "type": "module",
+  "imports": {
+    "#prompts": "@clack/prompts",
+    "#menus": "./src/menus/index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
