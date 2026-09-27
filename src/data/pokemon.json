@@ -1,50 +1,74 @@
 [
   {
-    "name": "Bulbasaur",
-    "hp": 45,
-    "attack": 49,
-    "defense": 49
+    "name": "Pikachu",
+    "hp": 100,
+    "attacks": [
+      { "name": "Choque do Trovão", "damage": 25 },
+      { "name": "Investida", "damage": 15 },
+      { "name": "Cauda de Ferro", "damage": 20 }
+    ]
   },
   {
     "name": "Charmander",
-    "hp": 39,
-    "attack": 52,
-    "defense": 43
+    "hp": 100,
+    "attacks": [
+      { "name": "Lança-Chamas", "damage": 28 },
+      { "name": "Arranhão", "damage": 12 },
+      { "name": "Mordida", "damage": 18 }
+    ]
   },
   {
     "name": "Squirtle",
-    "hp": 44,
-    "attack": 48,
-    "defense": 65
+    "hp": 100,
+    "attacks": [
+      { "name": "Jato d'Água", "damage": 24 },
+      { "name": "Investida", "damage": 15 },
+      { "name": "Mordida", "damage": 18 }
+    ]
   },
   {
-    "name": "Pikachu",
-    "hp": 35,
-    "attack": 55,
-    "defense": 40
+    "name": "Bulbasaur",
+    "hp": 100,
+    "attacks": [
+      { "name": "Chicote de Vinha", "damage": 24 },
+      { "name": "Investida", "damage": 15 },
+      { "name": "Folha Navalha", "damage": 22 }
+    ]
   },
   {
     "name": "Eevee",
-    "hp": 55,
-    "attack": 55,
-    "defense": 50
+    "hp": 100,
+    "attacks": [
+      { "name": "Investida", "damage": 15 },
+      { "name": "Ataque Rápido", "damage": 20 },
+      { "name": "Mordida", "damage": 18 }
+    ]
+  },
+  {
+    "name": "Meowth",
+    "hp": 100,
+    "attacks": [
+      { "name": "Arranhão", "damage": 12 },
+      { "name": "Mordida", "damage": 18 },
+      { "name": "Ataque Rápido", "damage": 20 }
+    ]
   },
   {
     "name": "Machop",
-    "hp": 70,
-    "attack": 80,
-    "defense": 50
+    "hp": 100,
+    "attacks": [
+      { "name": "Golpe de Karatê", "damage": 25 },
+      { "name": "Chute Baixo", "damage": 22 },
+      { "name": "Investida", "damage": 15 }
+    ]
   },
   {
     "name": "Geodude",
-    "hp": 40,
-    "attack": 80,
-    "defense": 100
-  },
-  {
-    "name": "Abra",
-    "hp": 25,
-    "attack": 20,
-    "defense": 15
+    "hp": 100,
+    "attacks": [
+      { "name": "Arremesso de Pedra", "damage": 26 },
+      { "name": "Investida", "damage": 15 },
+      { "name": "Cabeçada", "damage": 20 }
+    ]
   }
 ]
