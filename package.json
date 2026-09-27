@@ -1,0 +1,24 @@
+{
+  "name": "pokenode",
+  "version": "1.0.0",
+  "description": "Batalha pokémon no terminal.",
+  "homepage": "https://github.com/itsvk7/pokenode#readme",
+  "bugs": {
+    "url": "https://github.com/itsvk7/pokenode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsvk7/pokenode.git"
+  },
+  "license": "MIT",
+  "author": "victor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "strcolorize": "^1.1.8"
+  }
+}
