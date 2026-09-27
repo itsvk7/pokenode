@@ -1,4 +1,4 @@
-class Pokemon {
+export class Pokemon {
   constructor({ name, hp, defense, attacks }) {
     this.name = name;
     this.hp = hp;
