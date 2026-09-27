@@ -1,27 +1,30 @@
 [
   {
     "name": "Pikachu",
-    "hp": 100,
+    "hp": 85,
+    "defense": 5,
     "attacks": [
-      { "name": "Choque do Trovão", "damage": 25 },
-      { "name": "Investida", "damage": 15 },
-      { "name": "Cauda de Ferro", "damage": 20 }
+      { "name": "Choque do Trovão", "damage": 24 },
+      { "name": "Investida", "damage": 16 },
+      { "name": "Cauda de Ferro", "damage": 21 }
     ]
   },
   {
     "name": "Charmander",
-    "hp": 100,
+    "hp": 90,
+    "defense": 6,
     "attacks": [
-      { "name": "Lança-Chamas", "damage": 28 },
-      { "name": "Arranhão", "damage": 12 },
-      { "name": "Mordida", "damage": 18 }
+      { "name": "Lança-Chamas", "damage": 25 },
+      { "name": "Arranhão", "damage": 16 },
+      { "name": "Mordida", "damage": 20 }
     ]
   },
   {
     "name": "Squirtle",
-    "hp": 100,
+    "hp": 105,
+    "defense": 10,
     "attacks": [
-      { "name": "Jato d'Água", "damage": 24 },
+      { "name": "Jato d'Água", "damage": 21 },
       { "name": "Investida", "damage": 15 },
       { "name": "Mordida", "damage": 18 }
     ]
@@ -29,46 +32,51 @@
   {
     "name": "Bulbasaur",
     "hp": 100,
+    "defense": 8,
     "attacks": [
-      { "name": "Chicote de Vinha", "damage": 24 },
+      { "name": "Chicote de Vinha", "damage": 22 },
       { "name": "Investida", "damage": 15 },
-      { "name": "Folha Navalha", "damage": 22 }
+      { "name": "Folha Navalha", "damage": 20 }
     ]
   },
   {
     "name": "Eevee",
-    "hp": 100,
+    "hp": 95,
+    "defense": 7,
     "attacks": [
-      { "name": "Investida", "damage": 15 },
+      { "name": "Investida", "damage": 17 },
       { "name": "Ataque Rápido", "damage": 20 },
-      { "name": "Mordida", "damage": 18 }
+      { "name": "Mordida", "damage": 19 }
     ]
   },
   {
     "name": "Meowth",
-    "hp": 100,
+    "hp": 88,
+    "defense": 6,
     "attacks": [
-      { "name": "Arranhão", "damage": 12 },
-      { "name": "Mordida", "damage": 18 },
-      { "name": "Ataque Rápido", "damage": 20 }
+      { "name": "Arranhão", "damage": 17 },
+      { "name": "Mordida", "damage": 19 },
+      { "name": "Ataque Rápido", "damage": 21 }
     ]
   },
   {
     "name": "Machop",
-    "hp": 100,
+    "hp": 110,
+    "defense": 7,
     "attacks": [
-      { "name": "Golpe de Karatê", "damage": 25 },
-      { "name": "Chute Baixo", "damage": 22 },
-      { "name": "Investida", "damage": 15 }
+      { "name": "Golpe de Karatê", "damage": 26 },
+      { "name": "Chute Baixo", "damage": 23 },
+      { "name": "Investida", "damage": 16 }
     ]
   },
   {
     "name": "Geodude",
-    "hp": 100,
+    "hp": 115,
+    "defense": 12,
     "attacks": [
-      { "name": "Arremesso de Pedra", "damage": 26 },
-      { "name": "Investida", "damage": 15 },
-      { "name": "Cabeçada", "damage": 20 }
+      { "name": "Arremesso de Pedra", "damage": 22 },
+      { "name": "Investida", "damage": 14 },
+      { "name": "Cabeçada", "damage": 19 }
     ]
   }
 ]
