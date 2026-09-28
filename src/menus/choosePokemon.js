@@ -3,7 +3,7 @@ import { select } from "#prompts";
 
 export async function choosePokemon(pokemons) {
   const pokemonOptions = pokemons.map((pokemon, i) => ({
-    value: pokemon.name.toLowerCase(),
+    value: pokemon,
     label: `[ ${i + 1} ] ${pokemon.name}`,
   }));
   const chosenPokemon = await select({

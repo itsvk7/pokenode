@@ -9,7 +9,7 @@ export class Pokemon {
 
   attack(enemy, atk) {
     const defenseMultiplier = enemy.isDefending ? 2 : 1;
-    const damage = Math.max(0, atk.damage - enemy * defenseMultiplier);
+    const damage = Math.max(0, atk.damage - enemy.defense * defenseMultiplier);
 
     enemy.hp = Math.max(0, enemy.hp - damage);
     enemy.isDefending = false;
